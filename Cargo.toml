@@ -1,6 +1,6 @@
 [package]
 name = "ssrs"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "Speech-to-text CLI using Whisper and Candle"
 license = "MIT"
