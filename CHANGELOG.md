@@ -1,3 +1,8 @@
+## [0.1.4] - 2026-06-02
+
+### 🐛 Bug Fixes
+
+- Prevent Prepare Release race condition
 ## [0.1.3] - 2026-06-02
 
 ### 🐛 Bug Fixes
@@ -15,6 +20,7 @@
 ### ⚙️ Miscellaneous Tasks
 
 - Test release flow
+- Release v0.1.3
 ## [0.1.2] - 2026-06-02
 
 ### 🐛 Bug Fixes
