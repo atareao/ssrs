@@ -1,8 +1,17 @@
+## [0.1.2] - 2026-06-02
+
+### 🐛 Bug Fixes
+
+- Update Cargo.lock after version bump
 ## [0.1.1] - 2026-06-02
 
 ### 🐛 Bug Fixes
 
 - Correct .vampus.yml pattern for version matching
+
+### ⚙️ Miscellaneous Tasks
+
+- Release v0.1.1
 ## [0.1.0] - 2026-06-02
 
 ### 🐛 Bug Fixes
