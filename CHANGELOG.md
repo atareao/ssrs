@@ -1,8 +1,29 @@
+## [0.1.3] - 2026-06-02
+
+### 🐛 Bug Fixes
+
+- Add description and license to Cargo.toml
+
+### 💼 Other
+
+- Sync with main for release flow
+
+### 📚 Documentation
+
+- Add professional README
+
+### ⚙️ Miscellaneous Tasks
+
+- Test release flow
 ## [0.1.2] - 2026-06-02
 
 ### 🐛 Bug Fixes
 
 - Update Cargo.lock after version bump
+
+### ⚙️ Miscellaneous Tasks
+
+- Release v0.1.2
 ## [0.1.1] - 2026-06-02
 
 ### 🐛 Bug Fixes
