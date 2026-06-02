@@ -4,6 +4,10 @@ on:
   push:
     branches: [main]
 
+concurrency:
+  group: prepare-release
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
@@ -62,8 +66,9 @@ jobs:
           V="${{ steps.version.outputs.value }}"
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --ff-only origin main || true
           git add -A
-          git commit -m "chore: release v${V}"
+          git commit -m "chore: release v${V}" || echo "nothing to commit"
           git tag "v${V}"
           git push origin main
           git push origin "v${V}"
