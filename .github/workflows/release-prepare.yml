@@ -45,6 +45,9 @@ jobs:
       - name: Bump version with vampus
         run: vampus upgrade ${{ steps.bump.outputs.type }}
 
+      - name: Update Cargo.lock
+        run: cargo check
+
       - name: Get new version
         id: version
         run: |
