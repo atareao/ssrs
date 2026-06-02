@@ -3,13 +3,16 @@
 ### 🐛 Bug Fixes
 
 - Add missing melfilters.bytes file
+- Add description and license to Cargo.toml
 
 ### 📚 Documentation
 
 - Add initial README
+- Update README
 
 ### ⚙️ Miscellaneous Tasks
 
 - Add CI/CD workflows for release automation
+- Release v0.1.0
 - Release v0.1.0
 - Release v0.1.0
